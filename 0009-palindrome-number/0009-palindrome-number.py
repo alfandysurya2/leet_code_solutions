@@ -5,8 +5,7 @@ class Solution:
         :rtype: bool
         """
         x_str = str(x)
-        x_str_list = [i for i in x_str]
-        if x_str_list[::-1] == x_str_list:
+        if x_str[::-1]  == x_str:
             return True
         else:
             return False
