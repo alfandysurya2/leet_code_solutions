@@ -9,8 +9,7 @@ class Solution:
         else:
             x_str = str(x)
             x_str_list = [i for i in x_str]
-            reversed_list = x_str_list[::-1]
-            if reversed_list == x_str_list:
+            if x_str_list[::-1] == x_str_list:
                 return True
             else:
                 return False
